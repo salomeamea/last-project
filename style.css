@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+ 
+body {
+
+    background-image: url(../img/body3.webp);
+    background-repeat:no-repeat;
+    
+  }
+
+header{
+    padding: 40px;
+    background-color:rgb(237, 203, 209);
+    border: 2px solid whitesmoke;
+    margin-bottom: 50px;
+    
+}  
+header h1{
+    width: 150px;
+    height: 150px;
+    background-image: url(../img/logo\ copy.png);
+    background-repeat:no-repeat;
+    background-size: 100%;
+    text-indent: -9999999px;
+    background-position-y: -3px;
+    
+
+}
+header h1 a {
+    display: block;
+    width: 150px;
+    height: 50px;
+}
+
+header ul{
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header ul a{
+    padding: 15px 20px;
+    color: rgb(17, 17, 16);
+    border: 2px solid whitesmoke;
+}
+
+.chatbutton{
+    width: 200px;
+    padding: 20px;
+    background-color: rgb(237, 203, 209);
+    text-align: center;
+    position: fixed;
+    bottom: 40px;
+    right: 50px;
+    border: 3px solid whitesmoke;
+}
+.chatbutton:hover{
+    background-color: whitesmoke ;
+    cursor: pointer;
+}
+
+    
+
+.chatbox{
+    width: 300px;
+    border: 1px solid whitesmoke;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    background-color:rgb(237, 203, 209) ;
+    display: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.chatboxheader{
+    padding: 10px;
+    border: 2px solid whitesmoke;
+    
+}
+.close{
+    padding: 5px;
+}
+.close:hover{
+    cursor: pointer;
+}
+.chatboxmain{
+    padding: 10px;
+    
+}
+.chatboxmain input, .chatboxmain textarea{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 16px;
+    outline: none;
+    resize: none;
+}
+.chatboxmain .send{
+    width: 100%;
+    padding: 16px;
+    text-align: center;
+    background-color: #cdcdcd;
+}
+
+
+footer{
+width: 100%;
+height: 140px;
+background-color: rgb(237, 203, 209);
+padding: 90px;
+font-size: 10px;
+text-transform: capitalize;
+font-family: poppinsbold;
+color: #080708;
+}
+
+/*----------------------about-----------------------*/
+
+.about h2{
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.about img{
+    width: 400px;
+    height: 400px;
+    margin-left: 20px;
+}
+
+.text {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 15px;
+    text-align: justify;
+    color: #0d0c0c;
+    
+}
+
+/*-------------------services----------------------*/
+.servisebi{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sevisebi .text{
+    margin: 20px;
+}
+.servisebi img{
+    width: 300px;
+    margin-bottom: 100px;
+}
+/*------------------contact------------------------*/
+.contact{
+    width: 500px;
+    margin: 50px;
+    background-color: rgb(237, 203, 209);
+    border: 5px solid whitesmoke;
+    padding: 20px;
+}
+
+@media only screen and (max-width: 800px) {
+
+    body {
+        background-color: #ffffff;
+    }
+
+ .servisebi {
+
+     display: flex;
+    flex-direction: column;
+ } }
